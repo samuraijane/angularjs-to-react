@@ -1,0 +1,9 @@
+<div ng-controller="navigationCtrl as vm">
+  <div class="navs">
+    <ul class="y-wrap">
+      <li ng-click="vm.loadPage(nav.href)" ng-repeat="nav in vm.navs">
+        {{nav.name}}
+      </li>
+    </ul>
+  </div>
+</div>

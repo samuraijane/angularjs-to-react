@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  color: #444;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #666;
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+
+.y-wrap {
+  margin: 0 auto;
+  width: 90%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navs {
+  background-color: aliceblue;
+  margin: 0 0 40px 0;
+  padding: 24px 0;
+}
+
+.navs ul {
+  display: flex;
+}
+
+.navs ul li {
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.navs ul li:last-of-type {
+  margin-right: 0;
+}
